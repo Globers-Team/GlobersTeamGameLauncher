@@ -14,7 +14,7 @@ class Game():
 
 class GlobShooter(Game):
     def __init__(self):
-        super().__init__(id=0,name="Glob Shooter",link=f"https://github.com/Globers-Team/game-builds/raw/main/Glob{sus}20shooter/globusek.zip",desc="A fast-paced FPS game.")
+        super().__init__(id=0,name="Glob Shooter",link=f"https://github.com/Globers-Team/game-builds/raw/main/Glob{sus}20shooter/game.zip",desc="A fast-paced FPS game.")
 
 games.append(GlobShooter())
 
