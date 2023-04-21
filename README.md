@@ -1,3 +1,3 @@
 # Globers Team GameLauncher
-#WIP
+# WIP
 Is a basicly a launcher for our games.
