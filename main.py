@@ -22,12 +22,9 @@ print("Welcome to Globers Team GameLauncher!")
 print("Here You can download all sorts of our games!")
 print("Note: You are currently using TUI/shell mode. To exit, just type: WIP")
 
-games[0].download()
 for i in games:
     print(f"{i.id + 1}. {i.name}")
     cmd = input("Enter command: ")
     cmd = cmd.split()
     if cmd[0] == "install":
-        for i in games:
-            if i.id + 1 == cmd[1]:
-                i.download()
+        games[int(cmd[1])-1].download()
